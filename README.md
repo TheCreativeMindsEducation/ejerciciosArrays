@@ -24,7 +24,7 @@ for experimento in range(10000):
     # Código que crea una lista de 100 valores de "caras" o "cruces".
 
     # Código que verifica si hay una racha de 6 caras o cruces seguidas.
-print('Probabilidad de racha: %s%%' % (numeroDeRachas / 100))
+print('Chance of streak: %s%%' % (numberOfStreaks / 100))
 ```
 
 Por supuesto, esto es solo una estimación, pero 10,000 es un tamaño de muestra decente. Algunos conocimientos de matemáticas podrían darte la respuesta exacta y ahorrarte la molestia de escribir un programa, pero los programadores son notoriamente malos en matemáticas.
