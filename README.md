@@ -62,6 +62,7 @@ Salida esperada:
 Pista: Necesitarás usar un bucle dentro de otro bucle para imprimir `grid[0][0]`, luego `grid[1][0]`, luego `grid[2][0]`, y así sucesivamente hasta `grid[8][0]`. Esto terminará la primera fila, por lo que entonces imprimirás un salto de línea. Luego tu programa debería imprimir `grid[0][1]`, luego `grid[1][1]`, luego `grid[2][1]`, y así sucesivamente. Lo último que imprimirá tu programa será `grid[8][5]`.
 
 Además, recuerda pasar el argumento `end` a `print()` si no quieres que se imprima un salto de línea automáticamente después de cada llamada a `print()`.
-````
+
+```python3
 print("Hello", end=" ") # imprimir sin salto de linea
 ```
